@@ -12,9 +12,13 @@ let calculations = []
 
 // Here's a wonderful place to make some routes:
 
-// GET /calculations
+// GET /calculations - route to get calc
+app.get('calculations', (req,res) =>{
+  res.json(calculations);
+});
 
-// POST /calculations
+// POST /calculations - route to perform & store cal.
+
 
 
 // PLEASE DO NOT MODIFY ANY CODE BELOW THESE BEARS:
